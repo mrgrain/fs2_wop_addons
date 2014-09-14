@@ -9,7 +9,7 @@ $settings = array (
     'to_bbcode' => array('cimg', 'home', 'video'),
     //don't convert: 'b', 'i', 'img', 'quote', 'center', 'url', 'list', 'numlist', 'quote'
 	'truncate' => false, // Set to length if you want to cut!
-    'use_html' => false,
+    'use_html' => null,
     'tpl_functions' => 'softremove',
     'cat_filter' => array(),
     'cat_prepend' => ': '
